@@ -5,7 +5,7 @@ const projects = [
     title: "DripStore E-commerce",
     description:
       "Plataforma completa de e-commerce online, frontend e backend.",
-    image: "/Portifolio-Site/Sem título.png", // Certifique-se de que o caminho está correto
+    image: "/portifolio-site/Sem título.png", // Certifique-se de que o caminho está correto
     tech: ["React", "Node.js", "MySQL"],
     github: "https://github.com",
     demo: "https://demo.com",
@@ -13,7 +13,7 @@ const projects = [
   {
     title: "Memória a Dois",
     description: "Aplicativo de memórias compartilhadas para casais.",
-    image: "/Portifolio-Site/Home.png", // Certifique-se de que o caminho está correto
+    image: "/portifolio-site/Home.png", // Certifique-se de que o caminho está correto
     tech: ["React", "Node.js", "MySQL"],
     github: "https://github.com",
     demo: "https://demo.com",
