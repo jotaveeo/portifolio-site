@@ -18,23 +18,23 @@ export default function Resume() {
             <div className="space-y-4">
               <div>
                 <h4 className="font-semibold">
-                  Imobiliária Edilene Azevedo (2022 - Presente) - Auxiliar
+                  Imobiliária Edilene Azevedo (2021 - 2025) - Auxiliar
                   Administrativo
                 </h4>
                 <ul className="list-disc list-inside text-gray-600">
+                  <li>Supervisor/Gerente</li>
                   <li>
-                    Auxilia no treinamento, suporte e uso do sistema Cadimo
-                    dentro da empresa.
+                    Auxiliei no treinamento dos colaboradores no uso dos
+                    sistemas dentro da empresa.
                   </li>
                   <li>
-                    Operação do sistema de fluxo de caixa do setor financeiro.
+                    Gerenciava o sistema de fluxo de caixa do setor financeiro.
                   </li>
                   <li>
-                    Suporte na solução de problemas relacionados a locações de
-                    imóveis.
+                    Solucionava problemas relacionados a locações de imóveis.
                   </li>
-                  <li>Gerenciamento do site e das redes sociais da empresa.</li>
-                  <li>Carga e postagem de mídias da empresa.</li>
+                  <li>Gerenciava o site e as redes sociais da empresa.</li>
+                  <li>Prestava suporte e manutenção nos equipamentos e computadores.</li>
                 </ul>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function Resume() {
                   (IFCE), Campus Itapipoca-CE
                 </h4>
                 <p className="text-gray-600">
-                  Ensino médio e tecnólogo em Informática
+                  Ensino médio e tecnólogo em Informática.
                 </p>
               </div>
               <div>
@@ -117,10 +117,10 @@ export default function Resume() {
             <ul className="list-disc list-inside text-gray-600">
               <li>
                 Linguagens de Programação: Python, HTML, CSS, C#, Java,
-                Javascript, Portugol, Android Studio, Git.
+                Javascript, Portugol, Android Studio, Git e GitHub.
               </li>
               <li>Banco de Dados: SQL, MySQL e MariaDB .</li>
-              <li>Sistemas: Windows, Office, Linux, GitHub.</li>
+              <li>Sistemas: Windows, Office, Linux.</li>
               <li>
                 Manutenção de Hardware: Especialista em reparo e manutenção de
                 computadores e notebooks.
