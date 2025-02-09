@@ -67,17 +67,17 @@ npm install
 
 ## Scripts Disponíveis
 
-dev: Inicia o servidor de desenvolvimento.
-build: Cria uma build de produção.
-lint: Executa o ESLint para verificar a qualidade do código.
-preview: Visualiza a build de produção.
-deploy: Faz o deploy do projeto no GitHub Pages.
+- **dev**: Inicia o servidor de desenvolvimento.
+- **build**: Cria uma build de produção.
+- **lint**: Executa o ESLint para verificar a qualidade do código.
+- **preview**: Visualiza a build de produção.
+- **deploy**: Faz o deploy do projeto no GitHub Pages.
 
 ## Contato
 
-Email: jotasuportetec@gmail.com
-LinkedIn: linkedin.com/in/jotavee088
-GitHub: github.com/jotaveeo
+- Email: jotasuportetec@gmail.com
+- LinkedIn: linkedin.com/in/jotavee088
+- GitHub: github.com/jotaveeo
 Feito com ❤️ por João Vitor Oliveira
 
-Este texto fornece uma visão geral completa do projeto, incluindo as tecnologias utilizadas, a estrutura do projeto, instruções de instalação, scripts disponíveis, e informações de contato. Certifique-se de substituir `username` pelo seu nome de usuário do GitHub e `portifolio-site` pelo nome do seu repositório.
+- Este texto fornece uma visão geral completa do projeto, incluindo as tecnologias utilizadas, a estrutura do projeto, instruções de instalação, scripts disponíveis, e informações de contato. Certifique-se de substituir `username` pelo seu nome de usuário do GitHub e `portifolio-site` pelo nome do seu repositório.
