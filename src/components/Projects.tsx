@@ -7,7 +7,7 @@ const projects = [
       "Plataforma completa de e-commerce online, frontend e backend.",
     image: "./banner1.png", // Certifique-se de que o caminho está correto
     tech: ["React", "Node.js", "MySQL"],
-    github: "https://github.com",
+    github: "https://github.com/jotaveeo/ProjetoDripStore-Site",
     demo: "https://demo.com",
   },
   {
@@ -15,7 +15,7 @@ const projects = [
     description: "Aplicativo de memórias compartilhadas para casais.",
     image: "./banner2.png", // Certifique-se de que o caminho está correto
     tech: ["React", "Node.js", "MySQL"],
-    github: "https://github.com",
+    github: "https://github.com/jotaveeo?tab=repositories",
     demo: "https://demo.com",
   },
   {
