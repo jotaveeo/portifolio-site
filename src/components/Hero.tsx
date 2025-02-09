@@ -63,9 +63,11 @@ export default function Hero() {
           >
             Ver Projetos
           </button>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-full transition-colors ml-1">
-            <Link to="/resume">Ver Currículo</Link>
-          </button>
+          <Link to="/resume">
+            <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-full transition-colors ml-1">
+              Ver Currículo
+            </button>
+          </Link>
         </div>
       </section>
       <About />
