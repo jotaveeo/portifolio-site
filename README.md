@@ -1,4 +1,4 @@
-# Portifolio-Site
+# Portifolio-Site - https://jotaveeo.github.io/portifolio-site/
 
 Este é um portfólio pessoal desenvolvido com React, TypeScript e Vite. O site é estilizado com Tailwind CSS e utiliza ícones do Lucide React. O objetivo deste projeto é apresentar minhas habilidades, projetos e experiência profissional.
 
