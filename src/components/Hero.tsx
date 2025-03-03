@@ -68,6 +68,11 @@ export default function Hero() {
               Ver Currículo
             </button>
           </Link>
+          <Link to="/contact">
+            <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-full transition-colors ml-1">
+              Entre em contato
+            </button>
+          </Link>
         </div>
       </section>
       <About />

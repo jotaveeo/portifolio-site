@@ -34,7 +34,10 @@ export default function Resume() {
                     Solucionava problemas relacionados a locações de imóveis.
                   </li>
                   <li>Gerenciava o site e as redes sociais da empresa.</li>
-                  <li>Prestava suporte e manutenção nos equipamentos e computadores.</li>
+                  <li>
+                    Prestava suporte e manutenção nos equipamentos e
+                    computadores.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -96,7 +99,7 @@ export default function Resume() {
                   (IFCE), Campus Itapipoca-CE
                 </h4>
                 <p className="text-gray-600">
-                  Ensino médio e tecnólogo em Informática.
+                  Concluído - Ensino médio e técnico em Informática (2019 - 2021)
                 </p>
               </div>
               <div>
@@ -104,7 +107,15 @@ export default function Resume() {
                   Universidade de Fortaleza (UNIFOR), Fortaleza-CE
                 </h4>
                 <p className="text-gray-600">
-                  Cursando Engenharia da Computação (2024 - Presente)
+                  Cursando - Engenharia da Computação (2024 - Presente)
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold">
+                  Centro Universitário UniBTA Digital, Fortaleza-CE
+                </h4>
+                <p className="text-gray-600">
+                  Cursando - Banco de Dados (2025 - Presente)
                 </p>
               </div>
             </div>
