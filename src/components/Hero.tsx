@@ -1,9 +1,14 @@
 import { Github, Linkedin, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { FaWhatsapp } from "react-icons/fa";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import About from "./About";
-import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import Services from "./Services";
+import Contact from "./Contact";
+import "../index.css";
+import "../hero.css";
 
 export default function Hero() {
   useEffect(() => {
@@ -15,12 +20,12 @@ export default function Hero() {
       <section
         className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-gray-900 to-gray-800 text-white px-4 bg-cover bg-center mx-auto"
         style={{
-          backgroundImage: "url('./img3.jpeg') ",
+          backgroundImage: "url('./baner.jpeg') ",
         }}
       >
         <div className="max-w-4xl mx-auto text-center bg-black bg-opacity-50 p-8 rounded-lg">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400 animate-gradient">
               João Vitor Oliveira
             </span>
           </h1>
@@ -78,6 +83,18 @@ export default function Hero() {
       <About />
       <Skills />
       <Projects />
+      <Services />
+      <Contact />
+
+      {/* Botão Flutuante do WhatsApp */}
+      <a
+        href="https://wa.me/5588997460356"
+        className="fixed bottom-4 right-4 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaWhatsapp size={24} />
+      </a>
     </>
   );
 }

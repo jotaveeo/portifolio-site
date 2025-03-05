@@ -12,19 +12,42 @@ const projects = [
   },
   {
     title: "Memória a Dois",
-    description: "Aplicativo de memórias compartilhadas para casais.",
+    description:
+      "Aplicativo de memórias compartilhadas para casais. (Em desenvolvimento)",
     image: "./banner2.png", // Certifique-se de que o caminho está correto
     tech: ["React", "Node.js", "MySQL"],
     github: "https://github.com/jotaveeo?tab=repositories",
     demo: "https://demo.com",
   },
   {
-    title: "Analytics Dashboard",
-    description:
-      "Dashboard interativo para visualização de dados em tempo real.",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
-    tech: ["React", "D3.js", "Firebase"],
+    title: "ZapBot-Cobrança",
+    description: "Robô de cobrança automatizada para WhatsApp.",
+    image: "./zapbranca.jpeg",
+    tech: ["Node", "JavaScript"],
+    github: "https://github.com",
+    demo: "https://demo.com",
+  },
+  {
+    title: "VizinhoBot-Vídeos",
+    description: "Robô de postagem de vídeos automatizado para o TikTok.",
+    image: "./ttbot.jpg",
+    tech: ["Node"],
+    github: "https://github.com",
+    demo: "https://demo.com",
+  },
+  {
+    title: "WebMercado",
+    description: "Plataforma de e-commerce online, frontend e backend.",
+    image: "./desenvolvimento.jpg",
+    tech: ["Node"],
+    github: "https://github.com",
+    demo: "https://demo.com",
+  },
+  {
+    title: "Gerador de Recibos",
+    description: "Aplicativo de geração de recibos para pequenos negócios.",
+    image: "./desenvolvimento.jpg",
+    tech: ["Node"],
     github: "https://github.com",
     demo: "https://demo.com",
   },

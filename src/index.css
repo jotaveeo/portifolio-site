@@ -2,3 +2,32 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@keyframes gradient {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 2s ease infinite;
+}
+
+.carousel-image-container {
+  width: 100%;
+  height: 500px; /* Define a altura para as imagens */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

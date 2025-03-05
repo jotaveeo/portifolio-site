@@ -1,6 +1,14 @@
 import { Code2, Brain, Rocket } from "lucide-react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "../index.css";
 
 export default function About() {
+  const images = Array.from(
+    { length: 20 },
+    (_, i) => `/portifolio-site/imgg (${i + 1}).jpg`
+  );
+
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4">
@@ -9,7 +17,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-600 text-justify">
-              Prazer, me chamo João!
+              Prazer, me chamo João! 👨🏽‍💻
               <br />
               Com mais de 6 anos de experiência em tecnologias, sou apaixonado
               por criar soluções que fazem a diferença. Minha jornada começou
@@ -20,6 +28,10 @@ export default function About() {
               Um desenvolvedor dedicado e sempre em busca de novos desafios e
               aprendizados. Acredito no poder da tecnologia para transformar o
               mundo e estou comprometido em contribuir para essa transformação.
+            </p>
+            <p className="text-lg text-gray-600 text-justify">
+              Ao lado mostro um pouco da minha jornada até agora, costruindo um 
+              networking e conhecendo pessoas incríveis.🚀
             </p>
 
             <div className="space-y-4">
@@ -55,11 +67,23 @@ export default function About() {
             </div>
           </div>
           <div className="relative">
-            <img
-              src="./img4.jpeg"
-              alt="Workspace"
-              className="rounded-lg shadow-xl"
-            />
+            <Carousel
+              showArrows={true}
+              showThumbs={false}
+              infiniteLoop={true}
+              autoPlay={true}
+              interval={3000}
+            >
+              {images.map((src, index) => (
+                <div key={index} className="carousel-image-container">
+                  <img
+                    src={src}
+                    alt={`Workspace ${index + 1}`}
+                    className="carousel-image"
+                  />
+                </div>
+              ))}
+            </Carousel>
           </div>
         </div>
       </div>
